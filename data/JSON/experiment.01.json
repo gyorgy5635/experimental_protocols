@@ -1,0 +1,93 @@
+﻿{
+	"Version": "1.0",
+	"Date created": "2022-01-01",
+	"Author": "Joe Doe",
+	"Email": "joe@doe.com",
+
+
+	"Campaign": {
+		"Title": "Testing salt tolerance in P. putida",
+		"Run": {
+			"Date": "2022-04-01",
+			"Protocol URI": "https://www.protocols.io/view/experiment-data-depot-edd-study-creation-bq6bmzan",
+			"Description": "P. putida cells were grown in Biolector to test SMA tolerance",
+			"Media": {
+				"Name": "M9 minimal media",
+				"Composition": [
+					{
+						"chemical": "Na2HPO4",
+						"concentration": "33.7 mM"
+					},
+					{
+						"chemical": "KH2PO4",
+						"concentration": "22.0 mM"
+					},
+					{
+						"chemical": "NaCl",
+						"concentration": "8.55 mM"
+					},
+					{
+						"chemical": "NH4Cl",
+						"concentration": "9.35 mM"
+					}
+				],
+				"pH": "7.3",
+				"Recipe URI": "https://www.protocols.io/view/experiment-data-depot-edd-study-creation-bq6bmzan"
+			},
+			"Feedstock concentrate": {
+				"Name": "DMR 2021",
+				"Description": "DMR prepared by NREL from corn stover",
+				"Feedstock preparation URI": "https://www.protocols.io/view/experiment-data-depot-edd-study-creation-bq6bmzan",
+				"Composition": [
+					{
+						"chemical": "Lignin",
+						"concentration": "0.17 mg/ml"
+					},
+					{
+						"chemical": "Cellobiose",
+						"concentration": "0 mg/ml"
+					},
+					{
+						"chemical": "Glucose",
+						"concentration": "247.92 mg/ml"
+					},
+					{
+						"chemical": "Xylose",
+						"concentration": "138.26 mg/ml"
+					},
+					{
+						"chemical": "Galactose",
+						"concentration": "1 mg/ml"
+					},
+					{
+						"chemical": "Arabinose",
+						"concentration": "11.67 mg/ml"
+					},
+					{
+						"chemical": "Fructose",
+						"concentration": "0 mg/ml"
+					},
+					{
+						"chemical": "Glucose",
+						"concentration": "267.51 mg/ml"
+					}
+				],
+				"Density": "1.18 g/ml",
+				"Undiluted pH": "4.96"
+			},
+			"Feedstock concentration": "0.1x",
+			"SMAs": [
+				{ "chemical": "Na-acetate" },
+				{ "chemical": "KH2PO4" }
+			],
+			"Strains": [
+				{
+					"strain name": "LC040",
+					"genotype": "P. putida KT2440 ΔcatRBCA::Ptac:catAΔpcaHG::Ptac:aroY:ecdB:asbFΔpykA::Ptac:aroG-D146N:aroY:ecdB:asbFΔppcΔpgi-1 Δpgi-2Δgcd∆hexRΔampC::PxylE"
+				}
+			],
+			"Notes": "Additional information."
+
+		}
+	}
+}
